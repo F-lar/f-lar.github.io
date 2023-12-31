@@ -1,14 +1,14 @@
 ---
-title: Staff
+title: Tags
 ---
-<h1>Staff</h1>
+<h1>Tags</h1>
 
 <ul>
-    {% for author in site.authors %}
+    {% for tag in site.tags %}
         <li>
-            <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
-            <h3>{{ author.position }}</h3>
-            <p>{{ author.content | markdownify }}</p>
+            <h2><a href="{{ tag.url }}">{{ tag.name }}</a></h2>
+            <h3>{{ tag.position }}</h3>
+            <p>{{ tag.content | markdownify }}</p>
         </li>
     {% endfor %}
 </ul>
