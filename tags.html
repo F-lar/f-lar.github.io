@@ -4,11 +4,11 @@ title: Tags
 <h1>Tags</h1>
 
 <ul>
-    {% for tag in site.tags %}
+    {% for tags in site.tags %}
         <li>
-            <h2><a href="{{ tag.url }}">{{ tag.name }}</a></h2>
-            <h3>{{ tag.position }}</h3>
-            <p>{{ tag.content | markdownify }}</p>
+            <h2><a href="{{ tags.url }}">{{ tags.name }}</a></h2>
+            <h3>{{ tags.position }}</h3>
+            <p>{{ tags.content | markdownify }}</p>
         </li>
     {% endfor %}
 </ul>
