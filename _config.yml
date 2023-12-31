@@ -1,13 +1,13 @@
 collections:
-  authors:
+  tags:
     output: true
 
 defaults:
   - scope:
       path: ""
-      type: "authors"
+      type: "tags"
     values:
-      layout: "author"
+      layout: "tag"
   - scope:
       path: ""
       type: "posts"
