@@ -1,0 +1,20 @@
+collections:
+  tags:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "tags"
+    values:
+      layout: "tag"
+  - scope:
+      path: ""
+      type: "posts"
+    values: 
+      layout: "post"
+  - scope:
+      path: ""
+    values: 
+      layout: "default"
+  
