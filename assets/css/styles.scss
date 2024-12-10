@@ -3,3 +3,10 @@
 @import 
     "main",
     "initialize";
+
+@use 'base';
+
+.inverse {
+    background-color: base.$primary-color;
+    color: #181818;
+}
