@@ -6,11 +6,11 @@
     "base";
 
 .inverse {
-    background-color: base.$primary-color;
+    background-color: $primary-color;
     color: #181818;
 }
 
 .inverse-code {
-    background-color: base.$code-color;
+    background-color: $code-color;
     color: #212121;
 }
