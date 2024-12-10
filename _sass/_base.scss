@@ -1,3 +1,4 @@
+html{
 $font-stack-base: noto-sans-base;
 $primary-color: #bbbbbb;
 
@@ -12,4 +13,5 @@ $code-color: #bbbbbb;
 code {
     font: $font-stack-code;
     color: $code-color;
+}
 }
