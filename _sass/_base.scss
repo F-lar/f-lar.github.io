@@ -5,16 +5,25 @@
 $font-stack-base: noto-sans-base;
 $primary-color: #bbbbbb;
 
+
 body {
-    font: $font-stack-base;
+    font-family: $font-stack-base;
     color: $primary-color;
-    background-color: #646464;
 }
 
 $font-stack-code: noto-sans-mono-code;
 $code-color: #bbbbbb;
 
 code {
-    font: $font-stack-code;
+    font-family: $font-stack-code;
     color: $code-color;
+}
+
+main {
+    --gradDark: hsl(144, 100%, 89%);
+    --gradLight: hsl(42, 94%, 76%);
+    background: linear-gradient(to bottom, var(--gradDark),
+var(--gradLight));
+    padding: 120px 40px 40px 40px;
+    min-height: 100vh;
 }
