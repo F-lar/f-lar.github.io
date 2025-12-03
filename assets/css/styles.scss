@@ -2,4 +2,15 @@
 ---
 @import 
     "main",
-    "initialize";
+    "initialize",
+    "base";
+
+.inverse {
+    background-color: $primary-color;
+    color: #181818;
+}
+
+.inverse-code {
+    background-color: $code-color;
+    color: #212121;
+}
